@@ -15,7 +15,7 @@ export function seedClasses(): ClassItem[] {
       instructor: "Priya Shah",
       datetime: atOffset(1, 9),
       capacity: 10,
-      bookedUsers: 3,
+      bookedUsers: 0,
     },
     {
       id: "hiit-express",
@@ -23,7 +23,7 @@ export function seedClasses(): ClassItem[] {
       instructor: "Marcus Lee",
       datetime: atOffset(1, 18),
       capacity: 8,
-      bookedUsers: 7,
+      bookedUsers: 0,
     },
     {
       id: "pilates-core",
@@ -31,7 +31,7 @@ export function seedClasses(): ClassItem[] {
       instructor: "Jenna Ortiz",
       datetime: atOffset(2, 12),
       capacity: 5,
-      bookedUsers: 5,
+      bookedUsers: 0,
     },
     {
       id: "sunrise-flow",
@@ -39,7 +39,7 @@ export function seedClasses(): ClassItem[] {
       instructor: "Devon Park",
       datetime: atOffset(-1, 7),
       capacity: 10,
-      bookedUsers: 4,
+      bookedUsers: 0,
     },
     {
       id: "spin-evening",
@@ -47,7 +47,7 @@ export function seedClasses(): ClassItem[] {
       instructor: "Rosa Martinez",
       datetime: atOffset(3, 19),
       capacity: 15,
-      bookedUsers: 6,
+      bookedUsers: 0,
     },
   ];
 }
